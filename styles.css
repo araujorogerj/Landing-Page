@@ -112,6 +112,10 @@ body{
     margin-bottom: 22px;
 }
 
+.input-name, .input-password  {
+    margin-bottom: 22px;
+}
+
 .primary-button{
     background-color: var(--hospital-green);
     border: none;
@@ -147,6 +151,13 @@ body{
     }
 
     .secondary-button{
+        width: 300px;
+        position: absolute;
+        bottom: 0;
+        margin-bottom: 24px;
+    }
+
+    .create-button{
         width: 300px;
         position: absolute;
         bottom: 0;
