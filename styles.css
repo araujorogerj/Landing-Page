@@ -49,6 +49,34 @@ body{
     text-align: center;
 }
 
+.email-image{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    background-color: var(--text-input-field);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.email-image img{
+    width: 80px;
+}
+
+.resent{
+    font-size: var(--sm);
+}
+
+.resent span{
+    color: var(--very-light-pink);
+}
+
+.resent a{
+    text-decoration: none;
+    color: var(--hospital-green);
+}
+
 .form{
     display: flex;
     flex-direction: column;
