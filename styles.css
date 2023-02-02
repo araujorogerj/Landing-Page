@@ -367,6 +367,51 @@ body{
     align-items: center;
 }
 
+.nav-menu{
+    display: none;
+}
+
+.nav-logo{
+    width: 100px;
+}
+
+.nav-left ul, .nav-right ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+.nav-left ul{
+    margin-left: 12px;
+}
+
+.nav-left{
+    display: flex;
+}
+
+.nav-left ul li a, .nav-right ul li a{
+    text-decoration: none;
+    color: var(--very-light-pink);
+    border: 1px solid var(--white);
+    transition: 0.4s;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.nav-left ul li a:hover, .nav-right ul li a:hover{
+    border: 1px solid var(--hospital-green);
+    color: var(--hospital-green);
+    transition: 0.4s;
+}
+
+nav{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0 24px 0 24px;
+}
+
 @media (max-width: 640px){
     .logo{
         display: block;
