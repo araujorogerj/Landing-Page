@@ -191,6 +191,87 @@ body{
     margin: 0;
 }
 
+.desktop-menu{
+    width: 100px;
+    height: auto;
+    border: 1px solid var(--very-light-pink);
+    border-radius: 6px;
+    padding: 20px 20px 0 20px;
+}
+
+.desktop-menu ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.desktop-menu ul li{
+    text-align: end;
+}
+
+.desktop-menu ul li:last-child{
+    padding-top: 20px;
+    border-top: 1px solid var(--very-light-pink);
+}
+
+.desktop-menu ul li:last-child a{
+    color: var(--hospital-green);
+    font-size: var(--sm);
+}
+
+.desktop-menu ul li a{
+    color: var(--black);
+    text-decoration: none;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.desktop-menu ul li:not(:last-child){
+    font-weight: bold;
+}
+
+.mobile-menu{
+    padding: 24px;
+}
+
+.mobile-menu a{
+    text-decoration: none;
+    color: var(--black);
+    font-weight: bold;
+    /* margin-bottom: 24px;
+    display: inline-block; */
+}
+
+.mobile-menu ul{
+    padding: 0;
+    margin-top: 24px 0 0;
+    list-style: none;
+}
+
+.mobile-menu ul li{
+    margin-bottom: 24px;
+}
+
+.mobile-menu ul:nth-child(1){
+    border-bottom: solid 1px var(--very-light-pink);
+}
+
+.mobile-menu ul:last-child{
+    position: absolute;
+    bottom: 0;
+}
+
+.mobile-menu .email-menu{
+    font-size: var(--sm);
+    font-weight: 300;
+}
+
+.mobile-menu .signout-menu{
+    color: var(--hospital-green);
+    font-size: var(--sm);
+}
+
+
 @media (max-width: 640px){
     .logo{
         display: block;
