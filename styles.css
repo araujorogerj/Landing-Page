@@ -297,7 +297,15 @@ body {
   padding: 0 24px;
   margin-bottom: 24px;
   border-radius: 8px;
+  width: 100%;
 }
+
+.order-cart{
+  background-color: var(--text-input-field);
+  margin-bottom: 24px;
+  border-radius: 8px;
+  width: 100%;
+} 
 
 .orders {
   display: grid;
@@ -443,6 +451,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 100%;
 }
 
 .product-detail{
@@ -498,6 +507,15 @@ nav {
   font-size: var(--sm);
   margin-top: 0;
   margin-bottom: 32px;
+}
+
+.title-container{
+  display: flex;
+}
+
+.title-container img{
+  transform: rotate(180deg);
+  margin-right: 12px;
 }
 
 @media (max-width: 640px) {
